@@ -1,11 +1,13 @@
 import React from 'react';
 import Counter from './Components/Counter';
 import './App.css'; 
+import Api from './Api';
 
 function App() {
     return(
       <>
-        <Counter/>
+        {/* <Counter/> */}
+        <Api/>
       </>
     )
 }
